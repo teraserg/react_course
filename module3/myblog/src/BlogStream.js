@@ -38,12 +38,10 @@ class BlogStreamPager extends Component {
 
 class BlogStream extends Component {
 
-   render() {
+   renderBlogItems(){
 
-    let blog_items = [];
-    for (var item of blogItemsDataStub){
-        blog_items.push(
-            <article className="blog-item">
+        return blogItemsDataStub.map(item => (
+          <article className="blog-item">
                 <h2><a href="#">{item.article_name}</a></h2>
                 <p className="author">by {item.author}</p>
                 <p className="date-posted">Posted on {item.date_posted}</p>
@@ -52,16 +50,17 @@ class BlogStream extends Component {
                 <button className="read-more-btn">Read more ></button>
                 <hr />
             </article>
-        )
-    }
+        ));
+   }
 
-    return (
-         <div className="blog-stream">
-            <h1>Keep It Simple <small>Welcome</small></h1>
-            <div className="blog-items">{blog_items}</div>
-            <BlogStreamPager />
-        </div>
-     );
+   render() {
+       return (
+            <div className="blog-stream">
+                <h1>Keep It Simple <small>Welcome</small></h1>
+                <div className="blog-items">{this.renderBlogItems()}</div>
+                <BlogStreamPager />
+             </div>
+       );
    }
 }
 
