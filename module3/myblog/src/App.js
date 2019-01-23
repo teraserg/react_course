@@ -3,6 +3,19 @@ import logo from './logo.svg';
 import './App.css';
 import RightAside from './RightAside';
 import BlogStream from './BlogStream';
+import Navigation from './Navigation';
+
+
+class Footer extends Component {
+  render() {
+    return (
+        <footer className="footer">
+            <hr />
+            <p>Copyright © Keep It Simple Blog 2018</p>
+        </footer>
+    )
+  }
+}
 
 
 class App extends Component {
@@ -12,28 +25,15 @@ class App extends Component {
     return (
       <div className="container">
 
-        <div className="nav-root">
-            <nav className="navigator">
-                <div id="nav-group-left">
-                    <a href="#home">Keep it simple blog</a>
-                    <a className="disabled" href="#news">About</a>
-                    <a className="disabled" href="#contact">Contact</a>
-                </div>
-                <div id="nav-group-right">
-                    <a href="#signin">Sign In</a>
-                </div>
-            </nav>
-        </div>
+        <Navigation />
 
         <div className="main">
             <BlogStream />
             <RightAside />
         </div>
 
-        <footer className="footer">
-            <hr />
-            <p>Copyright © Keep It Simple Blog 2018</p>
-        </footer>
+        <Footer />
+
     </div>
     );
   }
