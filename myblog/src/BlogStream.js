@@ -23,25 +23,20 @@ const blogItemsDataStub = [
     }
 ]
 
+const BlogStreamPager = ({onClickButton}) => (
+    <div className="pager">
+        <a onClick={onClickButton} className="pager-btn" >← Newer</a>
+        <a className="pager-btn" >Older →</a>
+    </div>
+);
 
-class BlogStreamPager extends Component {
-
-    render() {
-        return (
-            <div className="pager">
-                <a className="pager-btn" >← Newer</a>
-                <a className="pager-btn" >Older →</a>
-            </div>
-        );
-    }
-}
 
 class BlogStream extends Component {
 
    renderBlogItems(){
 
-        return blogItemsDataStub.map(item => (
-          <article className="blog-item">
+        return blogItemsDataStub.map((item, i) => (
+          <article key={i} className="blog-item">
                 <h2><a href="#">{item.article_name}</a></h2>
                 <p className="author">by {item.author}</p>
                 <p className="date-posted">Posted on {item.date_posted}</p>
@@ -53,12 +48,16 @@ class BlogStream extends Component {
         ));
    }
 
+   onClickButton() {
+       // alert('test');
+   }
+
    render() {
        return (
             <div className="blog-stream">
                 <h1>Keep It Simple <small>Welcome</small></h1>
                 <div className="blog-items">{this.renderBlogItems()}</div>
-                <BlogStreamPager />
+                <BlogStreamPager onClickButton={this.onClickButton} />
              </div>
        );
    }

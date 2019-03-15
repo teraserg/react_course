@@ -7,7 +7,7 @@ class BlogSearch extends Component {
     return (
          <div className="aside-item">
             <h4>Blog Search</h4>
-            <form autocomplete="off">
+            <form autoComplete="off">
                 <div className="input-group">
                     <input className="input-window" />
                     <button className="input-btn" type="submit">&#x261B;</button>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import RightAside from './RightAside';
 import BlogStream from './BlogStream';

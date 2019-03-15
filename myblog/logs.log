@@ -1,0 +1,132 @@
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-5x5xr -n vidcat-prod | grep "job: "
+2019-02-13 16:34:28,170 DEBUG: job: AWjnsa3S97AWIpR6RW4p custom_zone_url: None [in categoriser.py:673]
+2019-02-15 16:03:40,516 DEBUG: job: AWjx0IMS97AWIpR6RW5K custom_zone_url: None [in categoriser.py:673]
+2019-02-15 20:11:56,824 DEBUG: job: AWjyx7Yk97AWIpR6RW5Q custom_zone_url: None [in categoriser.py:673]
+2019-02-19 17:01:08,575 DEBUG: job: AWkGszLb97AWIpR6RW6N custom_zone_url: None [in categoriser.py:673]
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-55jx8 -n vidcat-prod | grep "job: "
+2019-02-18 11:40:20,834 DEBUG: job: AWkAZ90-97AWIpR6RW58 custom_zone_url: None [in categoriser.py:673]
+2019-02-20 13:33:13,853 DEBUG: job: AWkLGWE-97AWIpR6RW6Z custom_zone_url: None [in categoriser.py:673]
+2019-02-20 16:33:28,644 DEBUG: job: AWkLvjLM97AWIpR6RW6l custom_zone_url: None [in categoriser.py:673]
+2019-02-20 22:02:30,425 DEBUG: job: AWkM2ems97AWIpR6RW7W custom_zone_url: None [in categoriser.py:673]
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-6jv8g -n vidcat-prod | grep "job: "
+2019-02-17 17:50:36,776 DEBUG: job: AWj8lEPLCSmRNRFYyjZH custom_zone_url: None [in categoriser.py:673]
+2019-02-18 11:20:49,655 DEBUG: job: AWkAVbGH97AWIpR6RW57 custom_zone_url: None [in categoriser.py:673]
+2019-02-18 16:02:24,290 DEBUG: job: AWkBVfyu97AWIpR6RW59 custom_zone_url: None [in categoriser.py:673]
+2019-02-20 13:31:57,806 DEBUG: job: AWkLGV_U97AWIpR6RW6Y custom_zone_url: None [in categoriser.py:673]
+2019-02-20 13:32:38,512 DEBUG: job: AWkLGWEoCSmRNRFYyjZa custom_zone_url: None [in categoriser.py:673]
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-7f7nh  -n vidcat-prod | grep "job: "
+2019-02-13 23:36:30,324 DEBUG: job: AWjpMjAcsSI5d6qayFj3 custom_zone_url: None [in categoriser.py:673]
+2019-02-15 20:14:52,467 DEBUG: job: AWjyx8s997AWIpR6RW5R custom_zone_url: None [in categoriser.py:673]
+2019-02-19 20:01:24,914 DEBUG: job: AWkHTtlC97AWIpR6RW6O custom_zone_url: None [in categoriser.py:673]
+2019-02-20 21:15:22,154 DEBUG: job: AWkMvnFH97AWIpR6RW7V custom_zone_url: None [in categoriser.py:673]
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-*  -n vidcat-prod | grep "job: "
+Error from server (NotFound): pods "vidcat-d449dd995-*" not found
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-czw4f  -n vidcat-prod | grep "job: "
+2019-02-14 13:32:50,026 DEBUG: job: AWjsMz4g97AWIpR6RW42 custom_zone_url: None [in categoriser.py:673]
+2019-02-14 15:22:14,676 DEBUG: job: AWjsl9fo97AWIpR6RW46 custom_zone_url: None [in categoriser.py:673]
+2019-02-14 16:57:31,354 DEBUG: job: AWjs7uVP97AWIpR6RW47 custom_zone_url: None [in categoriser.py:673]
+2019-02-14 23:01:35,698 DEBUG: job: AWjuPRjFsSI5d6qayFlZ custom_zone_url: None [in categoriser.py:673]
+2019-02-18 16:51:47,299 DEBUG: job: AWkBg7HO97AWIpR6RW5_ custom_zone_url: None [in categoriser.py:673]
+2019-02-18 17:21:59,056 DEBUG: job: AWkBnyaTCSmRNRFYyjZO custom_zone_url: None [in categoriser.py:673]
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-gln2z -n vidcat-prod | grep "job: "
+
+2019-02-15 16:43:13,561 DEBUG: job: AWjyB3I3sSI5d6qayFlc custom_zone_url: None [in categoriser.py:673]
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-h8fkb -n vidcat-prod | grep "job: "
+2019-02-14 17:02:09,596 DEBUG: job: AWjs7uqD97AWIpR6RW49 custom_zone_url: None [in categoriser.py:673]
+2019-02-14 17:03:31,377 DEBUG: job: AWjs7uyC97AWIpR6RW4- custom_zone_url: None [in categoriser.py:673]
+2019-02-14 18:20:34,754 DEBUG: job: AWjtPKZNsSI5d6qayFlT custom_zone_url: None [in categoriser.py:673]
+2019-02-14 19:36:30,442 DEBUG: job: AWjtfLoh97AWIpR6RW5C custom_zone_url: None [in categoriser.py:673]
+2019-02-15 14:53:16,559 DEBUG: job: AWjxosDqsSI5d6qayFlb custom_zone_url: None [in categoriser.py:673]
+2019-02-17 16:23:14,182 DEBUG: job: AWj8Qmu9CSmRNRFYyjZG custom_zone_url: None [in categoriser.py:673]
+2019-02-17 17:44:49,366 DEBUG: job: AWj8izM497AWIpR6RW53 custom_zone_url: None [in categoriser.py:673]
+2019-02-20 20:24:22,839 DEBUG: job: AWkMkLyg97AWIpR6RW7S custom_zone_url: None [in categoriser.py:673]
+2019-02-21 00:04:13,480 DEBUG: job: AWkNXX1k97AWIpR6RW7Z custom_zone_url: None [in categoriser.py:673]
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-jpktr -n vidcat-prod | grep "job: "
+2019-02-14 16:59:20,216 DEBUG: job: AWjs7ube97AWIpR6RW48 custom_zone_url: None [in categoriser.py:673]
+2019-02-14 18:44:12,388 DEBUG: job: AWjtRc8397AWIpR6RW5B custom_zone_url: None [in categoriser.py:673]
+2019-02-15 18:43:40,868 DEBUG: job: AWjydWm0sSI5d6qayFle custom_zone_url: None [in categoriser.py:673]
+2019-02-20 23:32:33,798 DEBUG: job: AWkNPrhVCSmRNRFYyjaa custom_zone_url: None [in categoriser.py:673]
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-l7vr7 -n vidcat-prod | grep "job: "
+2019-02-14 16:56:07,213 DEBUG: job: AWjs7uQWsSI5d6qayFlO custom_zone_url: None [in categoriser.py:673]
+2019-02-18 11:20:25,677 DEBUG: job: AWkAVaI197AWIpR6RW56 custom_zone_url: None [in categoriser.py:673]
+2019-02-19 02:53:12,386 DEBUG: job: AWkDqRbw97AWIpR6RW6C custom_zone_url: None [in categoriser.py:673]
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-mcwf6 -n vidcat-prod | grep "job: "
+2019-02-14 14:12:23,500 DEBUG: job: AWjsV8UgsSI5d6qayFlL custom_zone_url: None [in categoriser.py:673]
+2019-02-14 14:31:50,002 DEBUG: job: AWjsahLP97AWIpR6RW45 custom_zone_url: None [in categoriser.py:673]
+2019-02-19 16:30:59,362 DEBUG: job: AWkGl74R97AWIpR6RW6K custom_zone_url: None [in categoriser.py:673]
+2019-02-19 20:09:20,357 DEBUG: job: AWkHU3MpCSmRNRFYyjZW custom_zone_url: None [in categoriser.py:673]
+2019-02-20 15:02:53,388 DEBUG: job: AWkLa87r97AWIpR6RW6d custom_zone_url: None [in categoriser.py:673]
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-ms7pt -n vidcat-prod | grep "job: "
+2019-02-14 17:01:14,019 DEBUG: job: AWjs7uiZsSI5d6qayFlP custom_zone_url: None [in categoriser.py:673]
+2019-02-15 14:10:40,490 DEBUG: job: AWjxfjHf97AWIpR6RW5F custom_zone_url: None [in categoriser.py:673]
+2019-02-15 19:32:21,003 DEBUG: job: AWjyoxutsSI5d6qayFlg custom_zone_url: None [in categoriser.py:673]
+2019-02-19 15:42:30,305 DEBUG: job: AWkGafXwCSmRNRFYyjZT custom_zone_url: None [in categoriser.py:673]
+2019-02-19 22:52:24,663 DEBUG: job: AWkH88Sf97AWIpR6RW6P custom_zone_url: None [in categoriser.py:673]
+2019-02-20 13:40:37,784 DEBUG: job: AWkLInVf97AWIpR6RW6b custom_zone_url: None [in categoriser.py:673]
+2019-02-20 15:04:53,320 DEBUG: job: AWkLa87r97AWIpR6RW6d custom_zone_url: None [in categoriser.py:673]
+2019-02-20 23:34:33,642 DEBUG: job: AWkNPrhVCSmRNRFYyjaa custom_zone_url: None [in categoriser.py:673]
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-mz2hq -n vidcat-prod | grep "job: "
+2019-02-14 00:02:12,423 DEBUG: job: AWjpTZFSsSI5d6qayFj4 custom_zone_url: None [in categoriser.py:673]
+2019-02-14 18:13:57,379 DEBUG: job: AWjtM5Lc97AWIpR6RW5A custom_zone_url: None [in categoriser.py:673]
+2019-02-15 15:32:12,780 DEBUG: job: AWjxx11S97AWIpR6RW5I custom_zone_url: None [in categoriser.py:673]
+2019-02-15 16:14:06,459 DEBUG: job: AWjx6_1U97AWIpR6RW5N custom_zone_url: None [in categoriser.py:673]
+2019-02-18 17:32:43,805 DEBUG: job: AWkBqGIDCSmRNRFYyjZQ custom_zone_url: None [in categoriser.py:673]
+2019-02-20 21:14:22,847 DEBUG: job: AWkMvnFH97AWIpR6RW7V custom_zone_url: None [in categoriser.py:673]
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-nrmlq -n vidcat-prod | grep "job: "
+2019-02-19 11:22:23,989 DEBUG: job: AWkFctWL97AWIpR6RW6G custom_zone_url: None [in categoriser.py:673]
+2019-02-19 16:32:17,363 DEBUG: job: AWkGl9ia97AWIpR6RW6L custom_zone_url: None [in categoriser.py:673]
+2019-02-20 20:25:23,596 DEBUG: job: AWkMkLyg97AWIpR6RW7S custom_zone_url: None [in categoriser.py:673]
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-nsz2k -n vidcat-prod | grep "job: "
+2019-02-13 18:59:49,550 DEBUG: job: AWjoMdfZ97AWIpR6RW4r custom_zone_url: None [in categoriser.py:673]
+2019-02-19 13:42:11,988 DEBUG: job: AWkF_E1rCSmRNRFYyjZS custom_zone_url: None [in categoriser.py:673]
+2019-02-20 10:43:46,022 DEBUG: job: AWkKfcRk97AWIpR6RW6U custom_zone_url: None [in categoriser.py:673]
+2019-02-20 15:03:53,396 DEBUG: job: AWkLa87r97AWIpR6RW6d custom_zone_url: None [in categoriser.py:673]
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-v66bw -n vidcat-prod | grep "job: "
+2019-02-14 08:59:01,613 DEBUG: job: AWjrMuDKsSI5d6qayFj5 custom_zone_url: None [in categoriser.py:673]
+2019-02-14 11:33:03,197 DEBUG: job: AWjrswjR97AWIpR6RW41 custom_zone_url: None [in categoriser.py:673]
+2019-02-14 19:51:54,587 DEBUG: job: AWjtjx_t97AWIpR6RW5D custom_zone_url: None [in categoriser.py:673]
+2019-02-18 10:52:53,998 DEBUG: job: AWkAOjPPCSmRNRFYyjZJ custom_zone_url: None [in categoriser.py:673]
+2019-02-19 08:45:23,630 DEBUG: job: AWkE6YhL97AWIpR6RW6D custom_zone_url: None [in categoriser.py:673]
+2019-02-20 23:33:33,869 DEBUG: job: AWkNPrhVCSmRNRFYyjaa custom_zone_url: None [in categoriser.py:673]
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ 
+LVL1611004:myblog spopov$ kubectl logs vidcat-d449dd995-x6rkm -n vidcat-prod | grep "job: "
+2019-02-16 00:22:05,747 DEBUG: job: AWjzrKw5CSmRNRFYyjZF custom_zone_url: None [in categoriser.py:673]
+2019-02-18 11:30:28,085 DEBUG: job: AWkAXrjTCSmRNRFYyjZL custom_zone_url: None [in categoriser.py:673]
+
+
+
